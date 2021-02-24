@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dani\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\Models\\ToDoList.csproj",
+      "projectUniqueName": "C:\\Users\\Dani\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
       "projectName": "ToDoList",
-      "projectPath": "C:\\Users\\Dani\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\Models\\ToDoList.csproj",
+      "projectPath": "C:\\Users\\Dani\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
       "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dani\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\Models\\obj\\",
+      "outputPath": "C:\\Users\\Dani\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config"

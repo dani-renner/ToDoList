@@ -6690,8 +6690,8 @@
     },
     "ToDoList/1.0.0": {
       "type": "project",
-      "path": "../ToDoList/Models/ToDoList.csproj",
-      "msbuildProject": "../ToDoList/Models/ToDoList.csproj"
+      "path": "../ToDoList/ToDoList.csproj",
+      "msbuildProject": "../ToDoList/ToDoList.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6727,8 +6727,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Dani\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\Models\\ToDoList.csproj": {
-              "projectPath": "C:\\Users\\Dani\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\Models\\ToDoList.csproj"
+            "C:\\Users\\Dani\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
+              "projectPath": "C:\\Users\\Dani\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList\\ToDoList.csproj"
             }
           }
         }
