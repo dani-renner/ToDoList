@@ -1,0 +1,12 @@
+C:\Users\Dani\Desktop\Epicodus\ToDoList.Solution\ToDoList\Models\bin\Debug\net5.0\ToDoList.deps.json
+C:\Users\Dani\Desktop\Epicodus\ToDoList.Solution\ToDoList\Models\bin\Debug\net5.0\ToDoList.dll
+C:\Users\Dani\Desktop\Epicodus\ToDoList.Solution\ToDoList\Models\bin\Debug\net5.0\ref\ToDoList.dll
+C:\Users\Dani\Desktop\Epicodus\ToDoList.Solution\ToDoList\Models\bin\Debug\net5.0\ToDoList.pdb
+C:\Users\Dani\Desktop\Epicodus\ToDoList.Solution\ToDoList\Models\obj\Debug\net5.0\ToDoList.csprojAssemblyReference.cache
+C:\Users\Dani\Desktop\Epicodus\ToDoList.Solution\ToDoList\Models\obj\Debug\net5.0\ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dani\Desktop\Epicodus\ToDoList.Solution\ToDoList\Models\obj\Debug\net5.0\ToDoList.AssemblyInfoInputs.cache
+C:\Users\Dani\Desktop\Epicodus\ToDoList.Solution\ToDoList\Models\obj\Debug\net5.0\ToDoList.AssemblyInfo.cs
+C:\Users\Dani\Desktop\Epicodus\ToDoList.Solution\ToDoList\Models\obj\Debug\net5.0\ToDoList.csproj.CoreCompileInputs.cache
+C:\Users\Dani\Desktop\Epicodus\ToDoList.Solution\ToDoList\Models\obj\Debug\net5.0\ToDoList.dll
+C:\Users\Dani\Desktop\Epicodus\ToDoList.Solution\ToDoList\Models\obj\Debug\net5.0\ref\ToDoList.dll
+C:\Users\Dani\Desktop\Epicodus\ToDoList.Solution\ToDoList\Models\obj\Debug\net5.0\ToDoList.pdb
