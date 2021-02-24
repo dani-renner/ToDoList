@@ -18,8 +18,10 @@ namespace ToDoList.Tests
     {
       string description = "Walk the dog.";
       Item newItem = new Item(description);
+      string updatedDescription = "Do the dishes";
+      newItem.Description = updatedDescription;
       string result = newItem.Description;
-      Assert.AreEqual(description, result);
+      Assert.AreEqual(updatedDescription, result);
     }
     
   }
