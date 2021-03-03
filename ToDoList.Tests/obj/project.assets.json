@@ -2016,7 +2016,10 @@
         },
         "runtime": {
           "bin/placeholder/ToDoList.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

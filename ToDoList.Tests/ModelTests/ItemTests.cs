@@ -63,5 +63,18 @@ namespace ToDoList.Tests
         //Assert
         CollectionAssert.AreEqual(newList, result);
       }
+      [TestMethod]
+      public void GetId_ItemsInstantiateWithAnIdAndGetterReturns_Int()
+      {
+        //Arrange
+        string description = "Walk the dog.";
+        Item newItem = new Item(description);
+
+        //Act
+        int result = 0;
+
+        //Assert
+        Assert.AreEqual(1, result);
+      }      
     }
   }
