@@ -19,5 +19,13 @@ namespace ToDoList.Models
     {
       _instances.Clear();
     }
+    public static List<Category> GetAll()
+    {
+      return _instances;
+    }
+    public static Category Find(int searchId)
+    {
+      return _instances[searchId-1];
+    }
   }
 }
