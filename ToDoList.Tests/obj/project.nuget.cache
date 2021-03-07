@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HvuPBJ8pMwjDrfRlliK3zzGeB3RRx228Cb3Q1Si4wG71gNeuPfKMcW0umxO9acjugJ4Lftdfdv9BXKp6Quk45g==",
+  "dgSpecHash": "rT6EA9j1sm7yyjA7aAQriVvFdsgfRJUnPs8AuBR6MiV/qP1BV2khlYsp/NxBg6uKmyeWUq/WuOXTkKQtpePfFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dani\\Desktop\\Epicodus\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\Dani\\.nuget\\packages\\microsoft.win32.registry\\4.0.0\\microsoft.win32.registry.4.0.0.nupkg.sha512",
     "C:\\Users\\Dani\\.nuget\\packages\\mstest.testadapter\\1.2.0\\mstest.testadapter.1.2.0.nupkg.sha512",
     "C:\\Users\\Dani\\.nuget\\packages\\mstest.testframework\\1.2.0\\mstest.testframework.1.2.0.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\mysqlconnector\\0.69.0\\mysqlconnector.0.69.0.nupkg.sha512",
     "C:\\Users\\Dani\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Dani\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\Dani\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
