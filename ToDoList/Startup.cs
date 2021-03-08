@@ -27,17 +27,21 @@ namespace ToDoList
     {
       app.UseDeveloperExceptionPage();
       app.UseRouting();
-      app.UseStaticFiles();
+
       app.UseEndpoints(routes =>
       {
         routes.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
       });
 
+      app.UseStaticFiles();
+      
       app.Run(async (context) =>
       {
         await context.Response.WriteAsync("Hello World!");
       });
     }
+  }
+
   public static class DBConfiguration
   {
     public static string ConnectionString = "server=localhost;user id=root;password=epicodus;port=3306;database=to_do_list;";
