@@ -23,7 +23,8 @@ namespace ToDoList.Controllers
 
     public ActionResult Create()
     {
-      return View();
+    ViewBag.CategoryId = new SelectList(_db.Categories, "CategoryId", "Name");
+    return View();
     }
 
     [HttpPost]
@@ -41,15 +42,15 @@ namespace ToDoList.Controllers
     }
     public ActionResult Edit(int id)
     {
-        var thisItem = _db.Items.FirstOrDefault(item => item.ItemId == id);
-        return View(thisItem);
+      var thisItem = _db.Items.FirstOrDefault(item => item.ItemId == id);
+      return View(thisItem);
     }
     [HttpPost]
     public ActionResult Edit(Item item)
     {
-      _db.Entry(item).State = EntityState.Modified;
-      _db.SaveChanges();
-      return RedirectToAction("Index");
+      var thisItem = _db.Items.FirstOrDefault(item => item.ItemId == id);
+      ViewBag.CategoryId = new SelectList(_db.Categories, "CategoryId", "Name");
+      return View(thisItem);
     }
     public ActionResult Delete(int id)
     {
