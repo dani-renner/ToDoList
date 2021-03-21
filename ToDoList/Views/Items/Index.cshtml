@@ -1,18 +1,21 @@
 @{
   Layout = "_Layout";
 }
-
 @using ToDoList.Models;
-@model List<ToDoList.Models.Item>;
-
-<h1>Items</h1>
-
-<ul>
-  @foreach(Item item in Model)
-  {
+@model IEnumerable<ToDoList.Models.Item>
+<h1>Items for @User.Identity.Name</h1>
+@if (Model.Any())
+{
+  <ul>
+    @foreach (Item item in Model)
+    {
       <li>@Html.ActionLink($"{item.Description}", "Details", new { id = item.ItemId })</li>
-  }
-</ul>
-
+    }
+  </ul>
+} 
+else
+{
+  <h3>No items have been added yet!</h3>
+}
 <p>@Html.ActionLink("Add new item", "Create")</p>
 <p>@Html.ActionLink("Home", "Index", "Home")</p>
